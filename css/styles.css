@@ -33,7 +33,7 @@ li a {
 
 .active {
   background-color: #803399;
-  padding: 10px;
+  padding: 4px;
   text-decoration: underline;
   z-index: 10;
 }
