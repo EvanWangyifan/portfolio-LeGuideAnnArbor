@@ -2,44 +2,64 @@
 <html lang="en">
 <!-- meta data -->
 <head>
+	<meta charset="UTF-8">
 	<link rel="icon" href="images/favicon.jpg">
 	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Le Guide Ann Arbor</title>
 </head>
 
 <!-- web contents -->
 <body id='content'>
-	<header>
-		<nav>
-			<ul>
-				<li class="active"><a href="index.html">Home</a></li>
-				<li><a href="chinesefood.html">Chinese Food</a></li>
-				<li><a href="asianfood.html">Asian Food</a></li>
-				<li><a href="cafe&dessert.html">Cafe & Dessert</a></li>
-				<li id='gallery'><a href="gallery.html">Gallery</a></li>
-			</ul>
-		</nav>
-		<a class="skip-to-content" href='#main-content'>Skip To Content</a>
-	</header>
-	
-	<main id="main-content">
-		<h1 class="about">About This Website "Le Guide Ann Arbor"</h1>
-		<p>
-			Welcome to my website!! This is an Ann Arbor restaurant rating site purely based on the personal dinning experience on that specific visit. As a food lover, I will give objective critics and rating based on the environment, service, taste, and price. I will rate all 4 aspects in a total score of 5 (the higher the better). Finally, the average of all 4 scores will become the overall score. Also, I will list my recommended dishes based on personal preference.
-		</p>
-		<h1>About Myself</h1>
-		<p>
-			My name is Yifan(Evan) Wang. I'm currently a first year master student at University of Michigan Ann Arbor. I'm creating this website for the purpose of SI539 course project. I'm a big fan of food in general. I especially like Chinese food, Korean BBQ and sushi. So, I create this site to share my food adventure at Ann Arbor to everybody.
-		</p>
+	<div class="grid-container">
+		<header>
+			<nav>
+				<ul>
+					<li class="active">
+						<a href="index.html"><i class="fa fa-home fa-lg" aria-hidden="true">&nbsp;</i>Home</a>
+					</li>
+					<li><a href="chinesefood.html">Chinese Food</a></li>
+					<li><a href="asianfood.html">Asian Food</a></li>
+					<li><a href="cafe&dessert.html">Cafe & Dessert</a></li>
+					<li id='gallery'><a href="gallery.html"><i class="fa fa-picture-o fa-lg" aria-hidden="true">&nbsp;</i>Gallery</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<main id="main-content">
+			<div id="page-title">
+				<h1 id="page-title-text">Le Guide Ann Arbor</h1>
+				<aside>
+					<p id="aside-text">"Let food be thy medicine and medicine be thy food"</p>
+				</aside>
+			</div>
+			<div class="about-web">
+				<h2>About This Website </h2>
+				<p>
+					Welcome to my website!! This is an Ann Arbor restaurant rating site purely based on the personal dinning experience on that specific visit. As a food lover, I will give objective critics and rating based on the environment, service, taste, and price. I will rate all 4 aspects in a total score of 5 (the higher the better). Finally, the average of all 4 scores will become the overall score. Also, I will list my recommended dishes based on personal preference.
+				</p>
+			</div>
 
-		<figure>
-			<img src="images/dtaa.jpg" alt="downtown aa img" width="500"/>
-			<figcaption>Nice Sunset View of Downtown Ann Arbor</figcaption>
-		</figure>
-	</main>
 
-	<footer>
-		Yifan Wang &copy; 2022
-	</footer>
+
+			<div class="myself">
+				<h2>About Myself</h2>
+				<p>
+					My name is Yifan(Evan) Wang. I'm currently a first year master student at University of Michigan Ann Arbor. I'm creating this website for the purpose of SI539 course project. I'm a big fan of food in general. I especially like Chinese food, Korean BBQ and sushi. So, I create this site to share my food adventure at Ann Arbor to everybody.
+				</p>
+			</div>
+
+
+			<div class="map">
+				<img src="images/aamap.png" alt="aa map img"/>
+			</div>
+		</main>
+		
+		<footer>
+			Yifan Wang &copy; 2022
+		</footer>
+	</div>
 </body>
 </html>

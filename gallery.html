@@ -5,6 +5,9 @@
 	<meta charset="UTF-8">
 	<link rel="icon" href="images/favicon.jpg">
     <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Le Guide Ann Arbor-Gallery</title>
 </head>
 
@@ -13,50 +16,70 @@
 	<header>
 		<nav>
 			<ul>
-				<li><a href="index.html">Home</a></li>
+				<li><a href="index.html"><i class="fa fa-home fa-lg" aria-hidden="true">&nbsp;</i>Home</a></li>
 				<li><a href="chinesefood.html">Chinese Food</a></li>
 				<li><a href="asianfood.html">Asian Food</a></li>
 				<li><a href="cafe&dessert.html">Cafe & Dessert</a></li>
-				<li class="active" id='gallery'><a href="gallery.html">Gallery</a></li>
+				<li class="active" id='gallery'>
+					<a href="gallery.html"><i class="fa fa-picture-o fa-lg" aria-hidden="true">&nbsp;</i>Gallery</a>
+				</li>
 			</ul>
 		</nav>
-		<a class="skip-to-content" href='#main-content'>Skip To Content</a>
 	</header>
 	
 	<main id="main-content">
 		<h1 class="about">Gallery</h1>
 
-		<figure class='grid'>
-			<img src="images/asian/nagomi1.jpg" alt="nagomi front door img" width="500"/>
-			<!--<figcaption>Nagomi Sushi and Korean BBQ</figcaption>-->
+		<figure id='gallery-flex'>
+			<div class='gallery-item'>
+				<img class="gallery-img" src="images/asian/nagomi1.jpg" alt="nagomi front door img"/>
+				<figcaption>This is Nagomi Sushi and Korean BBQ</figcaption>
+			</div>
 
-			<img src="images/asian/saica1.jpg" alt="saica front door img" width="500"/>
-			<!--<figcaption>Saica</figcaption>-->
+			<div class='gallery-item'>
+				<img class="gallery-img" src="images/asian/saica1.jpg" alt="saica front door img"/>
+				<figcaption>This is Saica</figcaption>
+			</div>
 
-			<img src="images/asian/tomukunkoreanbbq1.jpg" alt="tomukun korean bbq interior img" width="500"/>
-			<!--<figcaption>Tomukun Korean BBQ</figcaption>-->
-
-
-			<img src="images/chinese/chinapalace1.jpg" alt="china palace interior img" width="500"/>
-			<!--<figcaption>China Palace</figcaption>-->
-
-			<img src="images/chinese/evergreen1.jpg" alt="evergreen exterior img" width="500"/>
-			<!--<figcaption>Evergreen</figcaption>-->
-
-			<img src="images/chinese/hotpotchen1.jpg" alt="hotpot chen exterior img" width="500"/>
-			<!--<figcaption>Hotpot Chen</figcaption>-->
-
-			<img src="images/chinese/lancitynoodlebar1.jpg" alt="lan city noodle img" width="500"/>
-			<!--<figcaption>Lan City Noodle Bar</figcaption>-->
-
-			<img src="images/cafe&dessert/coco1.jpg" alt="coco exterior img" width="500"/>
-			<!--<figcaption>CoCo</figcaption>-->
-
-			<img src="images/cafe&dessert/moge1.jpg" alt="moge interior img" width="500"/>
-			<!--<figcaption>Moge</figcaption>-->
-
-			<img src="images/cafe&dessert/frita.jpg" alt="frita food img" width="500"/>
-			<!--<figcaption>Frita</figcaption>-->
+			<div class='gallery-item'>
+				<img class="gallery-img" src="images/asian/tomukunkoreanbbq1.jpg" alt="tomukun korean bbq interior img"/>
+				<figcaption>This is Tomukun Korean BBQ</figcaption>
+			</div>
+			
+			<div class='gallery-item'>
+				<img class="gallery-img" src="images/chinese/chinapalace1.jpg" alt="china palace interior img"/>
+				<figcaption>This is China Palace</figcaption>
+			</div>
+			
+			<div class='gallery-item'>
+				<img class="gallery-img" src="images/chinese/evergreen1.jpg" alt="evergreen exterior img"/>
+				<figcaption>This is Evergreen</figcaption>
+			</div>
+			
+			<div class='gallery-item'>
+				<img class="gallery-img" src="images/chinese/hotpotchen1.jpg" alt="hotpot chen exterior img"/>
+				<figcaption>This is Hotpot Chen</figcaption>
+			</div>
+			
+			<div class='gallery-item'>
+				<img class="gallery-img" src="images/chinese/lancitynoodlebar1.jpg" alt="lan city noodle img"/>
+				<figcaption>This is Lan City Noodle Bar</figcaption>
+			</div>
+			
+			<div class='gallery-item'>
+				<img class="gallery-img" src="images/cafe&dessert/coco1.jpg" alt="coco exterior img"/>
+				<figcaption>This is CoCo</figcaption>
+			</div>
+			
+			<div class='gallery-item'>
+				<img class="gallery-img" src="images/cafe&dessert/moge1.jpg" alt="moge interior img"/>
+				<figcaption>This is Moge</figcaption>
+			</div>
+			
+			<div class='gallery-item'>
+				<img class="gallery-img" src="images/cafe&dessert/frita.jpg" alt="frita food img"/>
+				<figcaption>This is Frita</figcaption>
+			</div>
 		</figure>
 	</main>
 
