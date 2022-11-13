@@ -22,10 +22,10 @@ li{
 }
 
 li a {
-  font-size: 10px;
+  font-size: 8px;
   color: white;
   text-align: center;
-  padding: 0 8px 0 8px;
+  padding: 0 2px;
   text-decoration: none;
 }
 
