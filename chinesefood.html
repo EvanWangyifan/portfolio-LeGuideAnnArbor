@@ -2,8 +2,18 @@
 <html lang="en">
 <!-- meta data -->
 <head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-KX1CL2RXNQ"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-KX1CL2RXNQ');
+	</script>
+	
 	<meta charset="UTF-8">
-	<link rel="icon" href="images/favicon.jpg">
+	<link rel="icon" href="images/favicon.png">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +24,9 @@
 <!-- web contents -->
 <body>
 	<header>
+		<a class="skip-to-content-link" href="#main-start">
+		   jump to content
+		</a>
 		<nav>
 			<ul>
 				<li><a href="index.html"><i class="fa fa-home fa-lg" aria-hidden="true">&nbsp;</i>Home</a></li>
@@ -27,92 +40,108 @@
 		</nav>
 	</header>
 	
-	<main id="main-content">
+	<main id="main-start">
 		<h1 class="about">Authentic Chinese Restaurants</h1>
 
-		<div class="rest-box">
-			<h2>Lan City Noodle Bar (Chinese North Western Noodle)</h2>
-			<p>
-				Location: <a href="https://www.google.com/maps/place/Lan+City+Noodle+Bar+(Ann+Arbor)/@42.2751145,-83.735494,17z/data=!3m1!4b1!4m5!3m4!1s0x883cafaf111d2b2b:0x781a23f24af57564!8m2!3d42.2751106!4d-83.7333053">1235 S University Ave, Ann Arbor, MI 48104 (Click for Direction)</a>
-			</p>
-			<p>Environment: 4/5</p>
-			<p>Service: 5/5</p>
-			<p>Taste: 5/5</p>
-			<p>Price: 4/5</p>
-			<p>Evan's OVERALL Rating: 4.5/5</p>
-			<p>Evan's Recommendations: Sliced Beef Noodle Soup, Hot Pepper Oil Noodle, Scallion Pancake.</p>
-			<figure>
-				<img src="images/chinese/lancitynoodlebar2.jpg" alt="noodle img"/>
-				<figcaption>Sliced Beef Noodle Soup</figcaption>
-			</figure>
-		</div>
+		<div id="main-content-rest">
+			<div class="rest-box">
+				<div class="rest-desc">
+					<h2>Lan City Noodle Bar (Chinese North Western Noodle)</h2>
+					<p>
+						Location: <a href="https://www.google.com/maps/place/Lan+City+Noodle+Bar+(Ann+Arbor)/@42.2751145,-83.735494,17z/data=!3m1!4b1!4m5!3m4!1s0x883cafaf111d2b2b:0x781a23f24af57564!8m2!3d42.2751106!4d-83.7333053">1235 S University Ave, Ann Arbor, MI 48104 (Click for Direction)</a>
+					</p>
+					<p>Environment Rating: 4/5</p>
+					<p>Service Rating: 5/5</p>
+					<p>Taste Rating: 5/5</p>
+					<p>Price Rating: 4/5</p>
+					<p>Evan's OVERALL Rating: 4.5/5</p>
+					<p>Evan's Recommendations: Sliced Beef Noodle Soup, Hot Pepper Oil Noodle, Scallion Pancake.</p>
+				</div>
 
-		<div class="rest-box">
-			<h2>China Palace (Dim Sum)</h2>
-			<p>
-				Location: <a href="https://www.google.com/maps/place/China+Palace+Restaurant/@42.2493171,-83.6595152,17z/data=!3m1!4b1!4m5!3m4!1s0x883ca8dd3f705707:0xedb7e8004b8994da!8m2!3d42.2493131!4d-83.6573265">2905 Washtenaw Ave, Ypsilanti, MI 48197 (Click for Direction)</a>
-			</p>
-			<p>Environment: 5/5</p>
-			<p>Service: 3/5</p>
-			<p>Taste: 4.5/5</p>
-			<p>Price: 4.5/5</p>
-			<p>Evan's OVERALL Rating: 4.25/5</p>
-			<p>Evan's Recommendations: Dim Sum.</p>
-			<figure>
-				<img src="images/chinese/chinapalace2.jpg" alt="dim sum img"/>
-				<figcaption>Dim Sum</figcaption>
-			</figure>
-		</div>
+				<figure class="rest-pic">
+					<img src="images/chinese/lancitynoodlebar2.jpg" alt="noodle img">
+					<figcaption>Sliced Beef Noodle Soup</figcaption>
+				</figure>
+			</div>
 
-		<div class="rest-box">
-			<h2>Asian Legend (Taiwanese Cuisine)</h2>
-			<p>
-				Location: <a href="https://www.google.com/maps/place/%E8%80%81%E5%9C%B0%E6%96%B9/@42.2776989,-83.7446367,17z/data=!3m1!4b1!4m5!3m4!1s0x883cae3f35d0ac21:0x538b0a89aeabb896!8m2!3d42.2777093!4d-83.7424548">516 E William St, Ann Arbor, MI 48104 (Click for Direction)</a>
-			</p>
-			<p>Environment: 4.5/5</p>
-			<p>Service: 4.5/5</p>
-			<p>Taste: 4/5</p>
-			<p>Price: 4/5</p>
-			<p>Evan's OVERALL Rating: 4.25/5</p>
-			<p>Evan's Recommendations: Tofu Milk Tea, Minced Pork Over Rice, Chicken W. Basil.</p>
-			<figure>
-				<img src="images/chinese/asianlegend.jpg" alt="store img"/>
-				<figcaption>Asian Legend</figcaption>
-			</figure>
-		</div>
+			<div class="rest-box">
+				<div class="rest-desc">
+					<h2>China Palace (Dim Sum)</h2>
+					<p>
+						Location: <a href="https://www.google.com/maps/place/China+Palace+Restaurant/@42.2493171,-83.6595152,17z/data=!3m1!4b1!4m5!3m4!1s0x883ca8dd3f705707:0xedb7e8004b8994da!8m2!3d42.2493131!4d-83.6573265">2905 Washtenaw Ave, Ypsilanti, MI 48197 (Click for Direction)</a>
+					</p>
+					<p>Environment Rating: 5/5</p>
+					<p>Service Rating: 3/5</p>
+					<p>Taste Rating: 4.5/5</p>
+					<p>Price Rating: 4.5/5</p>
+					<p>Evan's OVERALL Rating: 4.25/5</p>
+					<p>Evan's Recommendations: Dim Sum.</p>
+				</div>
 
-		<div class="rest-box">
-			<h2>Evergreen (Sichuan Cuisine)</h2>
-			<p>
-				Location: <a href="https://www.google.com/maps/place/Evergreen+Restaurant/@42.3037501,-83.70806,17z/data=!3m2!4b1!5s0x883cac26ec450727:0xd808b3b4cd707789!4m5!3m4!1s0x883cac26fdce4d9d:0xb1d7d78aa601465!8m2!3d42.3037462!4d-83.7058713">2771 Plymouth Rd, Ann Arbor, MI 48105 (Click for Direction)</a>
-			</p>
-			<p>Environment: 4.5/5</p>
-			<p>Service: 3.5/5</p>
-			<p>Taste: 3.5/5</p>
-			<p>Price: 3.5/5</p>
-			<p>Evan's OVERALL Rating: 3.75/5</p>
-			<p>Evan's Recommendations: Oriental Jianbing, Yangzhou-style Fried Rice, Eggplant & Tofu Casserole.</p>
-			<figure>
-				<img src="images/chinese/evergreen2.jpg" alt="evergreen img"/>
-				<figcaption>Sichuan Fish</figcaption>
-			</figure>
-		</div>
+				<figure class="rest-pic">
+					<img src="images/chinese/chinapalace2.jpg" alt="dim sum img">
+					<figcaption>Dim Sum</figcaption>
+				</figure>
+			</div>
 
-		<div class="rest-box">
-			<h2>Hotpot Chen (Hotpot Fish)</h2>
-			<p>
-				Location: <a href="https://www.google.com/maps/place/Hot+Pot+Chen/@42.2749937,-83.780045,17z/data=!3m1!4b1!4m5!3m4!1s0x883cb1c5fb221ec3:0x60f05697cebb5f31!8m2!3d42.2749427!4d-83.7778264">2255 W Stadium Blvd, Ann Arbor, MI 48103 (Click for Direction)</a>
-			</p>
-			<p>Environment: 4/5</p>
-			<p>Service: 3.5/5</p>
-			<p>Taste: 3.5/5</p>
-			<p>Price: 3/5</p>
-			<p>Evan's OVERALL Rating: 3.5/5</p>
-			<p>Evan's Recommendations: Spicy Hotpot Fish.</p>
-			<figure>
-				<img src="images/chinese/hotpotchen2.jpg" alt="fish hotpot img"/>
-				<figcaption>Fish Hotpot</figcaption>
-			</figure>
+			<div class="rest-box">
+				<div class="rest-desc">
+					<h2>Asian Legend (Taiwanese Cuisine)</h2>
+					<p>
+						Location: <a href="https://www.google.com/maps/place/%E8%80%81%E5%9C%B0%E6%96%B9/@42.2776989,-83.7446367,17z/data=!3m1!4b1!4m5!3m4!1s0x883cae3f35d0ac21:0x538b0a89aeabb896!8m2!3d42.2777093!4d-83.7424548">516 E William St, Ann Arbor, MI 48104 (Click for Direction)</a>
+					</p>
+					<p>Environment Rating: 4.5/5</p>
+					<p>Service Rating: 4.5/5</p>
+					<p>Taste Rating: 4/5</p>
+					<p>Price Rating: 4/5</p>
+					<p>Evan's OVERALL Rating: 4.25/5</p>
+					<p>Evan's Recommendations: Tofu Milk Tea, Minced Pork Over Rice, Chicken W. Basil.</p>
+				</div>
+				<figure class="rest-pic">
+					<img src="images/chinese/asianlegend.jpg" alt="store img">
+					<figcaption>Asian Legend</figcaption>
+				</figure>
+			</div>
+
+			<div class="rest-box">
+				<div class="rest-desc">
+					<h2>Evergreen (Sichuan Cuisine)</h2>
+					<p>
+						Location: <a href="https://www.google.com/maps/place/Evergreen+Restaurant/@42.3037501,-83.70806,17z/data=!3m2!4b1!5s0x883cac26ec450727:0xd808b3b4cd707789!4m5!3m4!1s0x883cac26fdce4d9d:0xb1d7d78aa601465!8m2!3d42.3037462!4d-83.7058713">2771 Plymouth Rd, Ann Arbor, MI 48105 (Click for Direction)</a>
+					</p>
+					<p>Environment Rating: 4.5/5</p>
+					<p>Service Rating: 3.5/5</p>
+					<p>Taste Rating: 3.5/5</p>
+					<p>Price Rating: 3.5/5</p>
+					<p>Evan's OVERALL Rating: 3.75/5</p>
+					<p>Evan's Recommendations: Oriental Jianbing, Yangzhou-style Fried Rice, Eggplant & Tofu Casserole.</p>
+				</div>
+
+				<figure class="rest-pic">
+					<img src="images/chinese/evergreen2.jpg" alt="evergreen img">
+					<figcaption>Sichuan Fish</figcaption>
+				</figure>
+			</div>
+
+			<div class="rest-box">
+				<div class="rest-desc">
+					<h2>Hotpot Chen (Hotpot Fish)</h2>
+					<p>
+						Location: <a href="https://www.google.com/maps/place/Hot+Pot+Chen/@42.2749937,-83.780045,17z/data=!3m1!4b1!4m5!3m4!1s0x883cb1c5fb221ec3:0x60f05697cebb5f31!8m2!3d42.2749427!4d-83.7778264">2255 W Stadium Blvd, Ann Arbor, MI 48103 (Click for Direction)</a>
+					</p>
+					<p>Environment Rating: 4/5</p>
+					<p>Service Rating: 3.5/5</p>
+					<p>Taste Rating: 3.5/5</p>
+					<p>Price Rating: 3/5</p>
+					<p>Evan's OVERALL Rating: 3.5/5</p>
+					<p>Evan's Recommendations: Spicy Hotpot Fish.</p>
+				</div>
+
+				<figure class="rest-pic">
+					<img src="images/chinese/hotpotchen2.jpg" alt="fish hotpot img">
+					<figcaption>Fish Hotpot</figcaption>
+				</figure>
+			</div>
 		</div>
 	</main>
 

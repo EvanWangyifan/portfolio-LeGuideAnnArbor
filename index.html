@@ -2,8 +2,18 @@
 <html lang="en">
 <!-- meta data -->
 <head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-KX1CL2RXNQ"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-KX1CL2RXNQ');
+	</script>
+
 	<meta charset="UTF-8">
-	<link rel="icon" href="images/favicon.jpg">
+	<link rel="icon" href="images/favicon.png">
 	<link rel="stylesheet" href="css/styles.css">
 	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +25,9 @@
 <body id='content'>
 	<div class="grid-container">
 		<header>
+			<a class="skip-to-content-link" href="#main-content">
+			   jump to content
+			</a>
 			<nav>
 				<ul>
 					<li class="active">
@@ -47,13 +60,42 @@
 			<div class="myself">
 				<h2>About Myself</h2>
 				<p>
-					My name is Yifan(Evan) Wang. I'm currently a first year master student at University of Michigan Ann Arbor. I'm creating this website for the purpose of SI539 course project. I'm a big fan of food in general. I especially like Chinese food, Korean BBQ and sushi. So, I create this site to share my food adventure at Ann Arbor to everybody.
+					My name is Yifan(Evan) Wang. I'm currently a first year master student at University of Michigan Ann Arbor. I'm creating this website for the purpose of SI539 course project. I'm a big fan of food. I especially like Chinese food, Korean BBQ and sushi. So, I create this site to share my food adventure at Ann Arbor to everybody.
 				</p>
 			</div>
 
+			<div id="map-flex">
+				<figure class="hover-rotate">
+				<div class="map">
+					<img src="images/aamap.png" alt="aa map img">
+				</div>
+			</figure>
+			</div>
 
-			<div class="map">
-				<img src="images/aamap.png" alt="aa map img"/>
+			<div id="form-flex">
+				<form action="https://formspree.io/f/xlevkokg" method="POST">
+					<div id="rating">
+						<p class="rat-site">Rate Our Website:</p><br>
+						<input type="radio" id="one-star" name="web-rate" value="one-star">
+						<label for="two-star">1</label><br>
+						<input type="radio" id="two-star" name="web-rate" value="two-star">
+						<label for="three-star">2</label><br>
+						<input type="radio" id="three-star" name="web-rate" value="three-star">
+						<label for="four-star">3</label><br>
+						<input type="radio" id="four-star" name="web-rate" value="four-star">
+						<label for="five-star">4</label><br>
+						<input type="radio" id="five-star" name="web-rate" value="five-star">
+						<label for="one-star">5</label>
+					</div>
+
+					<div class="feedbacktext">
+						<label class="rat-site" for="feedback">Feedback:</label><br>
+		  				<textarea id="feedback" name="feedback"></textarea><br>
+		  				
+		  			</div>
+
+		  			<button type="submit" class="button">Submit</button>
+				</form>
 			</div>
 		</main>
 		

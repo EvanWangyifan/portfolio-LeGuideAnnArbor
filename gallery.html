@@ -2,8 +2,18 @@
 <html lang="en">
 <!-- meta data -->
 <head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-KX1CL2RXNQ"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-KX1CL2RXNQ');
+	</script>
+
 	<meta charset="UTF-8">
-	<link rel="icon" href="images/favicon.jpg">
+	<link rel="icon" href="images/favicon.png">
     <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
@@ -14,6 +24,9 @@
 <!-- web contents -->
 <body>
 	<header>
+		<a class="skip-to-content-link" href="#main-content-gallery">
+		   jump to content
+		</a>
 		<nav>
 			<ul>
 				<li><a href="index.html"><i class="fa fa-home fa-lg" aria-hidden="true">&nbsp;</i>Home</a></li>
@@ -27,60 +40,71 @@
 		</nav>
 	</header>
 	
-	<main id="main-content">
-		<h1 class="about">Gallery</h1>
+	<main id="main-content-gallery">
+		<h1 class="about-flex">Gallery</h1>
 
-		<figure id='gallery-flex'>
-			<div class='gallery-item'>
-				<img class="gallery-img" src="images/asian/nagomi1.jpg" alt="nagomi front door img"/>
+		<div id='gallery-flex'>
+			<figure class='gallery-item'>
+				<img class="gallery-img" src="images/asian/nagomi1.jpg" alt="nagomi front door img">
 				<figcaption>This is Nagomi Sushi and Korean BBQ</figcaption>
-			</div>
+			</figure>
 
-			<div class='gallery-item'>
-				<img class="gallery-img" src="images/asian/saica1.jpg" alt="saica front door img"/>
+			<figure class='gallery-item'>
+				<img class="gallery-img" src="images/asian/saica1.jpg" alt="saica front door img">
 				<figcaption>This is Saica</figcaption>
-			</div>
+			</figure>
 
-			<div class='gallery-item'>
-				<img class="gallery-img" src="images/asian/tomukunkoreanbbq1.jpg" alt="tomukun korean bbq interior img"/>
+			<figure class='gallery-item'>
+				<img class="gallery-img" src="images/asian/tomukunkoreanbbq1.jpg" alt="tomukun korean bbq interior img">
 				<figcaption>This is Tomukun Korean BBQ</figcaption>
-			</div>
+			</figure>
 			
-			<div class='gallery-item'>
-				<img class="gallery-img" src="images/chinese/chinapalace1.jpg" alt="china palace interior img"/>
+			<figure class='gallery-item'>
+				<img class="gallery-img" src="images/chinese/chinapalace1.jpg" alt="china palace interior img">
 				<figcaption>This is China Palace</figcaption>
-			</div>
+			</figure>
 			
-			<div class='gallery-item'>
-				<img class="gallery-img" src="images/chinese/evergreen1.jpg" alt="evergreen exterior img"/>
+			<figure class='gallery-item'>
+				<img class="gallery-img" src="images/chinese/evergreen1.jpg" alt="evergreen exterior img">
 				<figcaption>This is Evergreen</figcaption>
-			</div>
+			</figure>
 			
-			<div class='gallery-item'>
-				<img class="gallery-img" src="images/chinese/hotpotchen1.jpg" alt="hotpot chen exterior img"/>
+			<figure class='gallery-item'>
+				<img class="gallery-img" src="images/chinese/hotpotchen1.jpg" alt="hotpot chen exterior img">
 				<figcaption>This is Hotpot Chen</figcaption>
-			</div>
+			</figure>
 			
-			<div class='gallery-item'>
-				<img class="gallery-img" src="images/chinese/lancitynoodlebar1.jpg" alt="lan city noodle img"/>
+			<figure class='gallery-item'>
+				<img class="gallery-img" src="images/chinese/lancitynoodlebar1.jpg" alt="lan city noodle img">
 				<figcaption>This is Lan City Noodle Bar</figcaption>
-			</div>
+			</figure>
 			
-			<div class='gallery-item'>
-				<img class="gallery-img" src="images/cafe&dessert/coco1.jpg" alt="coco exterior img"/>
+			<figure class='gallery-item'>
+				<img class="gallery-img" src="images/cafe&dessert/coco1.jpg" alt="coco exterior img">
 				<figcaption>This is CoCo</figcaption>
-			</div>
+			</figure>
 			
-			<div class='gallery-item'>
-				<img class="gallery-img" src="images/cafe&dessert/moge1.jpg" alt="moge interior img"/>
+			<figure class='gallery-item'>
+				<img class="gallery-img" src="images/cafe&dessert/moge1.jpg" alt="moge interior img">
 				<figcaption>This is Moge</figcaption>
-			</div>
+			</figure>
 			
-			<div class='gallery-item'>
-				<img class="gallery-img" src="images/cafe&dessert/frita.jpg" alt="frita food img"/>
+			<figure class='gallery-item'>
+				<img class="gallery-img" src="images/cafe&dessert/frita.jpg" alt="frita food img">
 				<figcaption>This is Frita</figcaption>
-			</div>
-		</figure>
+			</figure>
+
+			<figure class='gallery-item'>
+				<img class="gallery-img" src="images/dtaa.jpg" alt="moge interior img">
+				<figcaption>This is Ann Arbor</figcaption>
+			</figure>
+			
+			<figure class='gallery-item'>
+				<img class="gallery-img" src="images/asian/empireDynasty.jpg" alt="frita food img">
+				<figcaption>This is Empire Dynasty</figcaption>
+			</figure>
+
+		</div>
 	</main>
 
 	<footer>
